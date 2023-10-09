@@ -1,0 +1,16 @@
+.c-info-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  padding: 3rem 8%;
+
+  &--bg_blue-shark {
+    background-color: #136c72;
+  }
+
+  &__block {
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}

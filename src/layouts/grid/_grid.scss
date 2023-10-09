@@ -1,0 +1,9 @@
+.l-grid {
+  display: flex;
+  justify-content: center;
+}
+
+.l-grid__container {
+  min-width: min-content;
+  max-width: 1440px;
+}

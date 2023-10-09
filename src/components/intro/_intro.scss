@@ -1,0 +1,34 @@
+.c-intro {
+  padding: 3rem 8%;
+
+  background-color: #23424a;
+}
+
+.c-intro__inner {
+  width: 60%;
+
+  @media (max-width: 786px) {
+    & {
+      width: auto;
+    }
+  }
+}
+
+.c-intro__title {
+  margin-top: 0;
+
+  font-weight: 900;
+  font-size: 3rem;
+  color: white;
+
+  overflow-wrap: anywhere;
+}
+
+.c-intro__text {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.c-intro__button {
+  margin-top: 1em;
+}
