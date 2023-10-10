@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
   <head>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -15,41 +15,103 @@
   <body>
     <main class="l-grid">
       <div class="l-grid__container">
-        <section class="c-intro">
-          <div class="c-intro__inner">
-            <h1 class="c-intro__title">
-              Resposive layouts don't have to be a struggle
-            </h1>
-            <p class="c-intro__text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
-              totam! Dolore, et eius cum laborum veritatis nesciunt? Optio
-              aliquid sint, ad, deserunt recusandae sed illum officia
-              exercitationem repellendus dolore aut?
-            </p>
+        <section class="c-intro l-grid__padding">
+          <div class="c-intro__left">
+            <section class="c-info">
+              <h1
+                class="c-info__title c-info__title--color_white c-info__title--size_big"
+              >
+                Resposive layouts don't have to be a struggle
+              </h1>
+              <p class="c-info__text c-info__text--color_white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Possimus, totam! Dolore, et eius cum laborum veritatis nesciunt?
+                Optio aliquid sint, ad, deserunt recusandae sed illum officia
+                exercitationem repellendus dolore aut?
+              </p>
+            </section>
             <button class="c-button c-intro__button">
               <a class="c-button__link" href="">I WANT TO LEARN</a>
             </button>
           </div>
+          <div class="c-intro__right">
+            <img src="https://placehold.co/600x400" alt="test image" />
+          </div>
         </section>
-        <section class="c-info-section">
-          <section class="c-info c-info-section__block">
-            <h2 class="c-info__title c-info__title--font_purple">Cheap</h2>
+
+        <section class="c-intro c-intro--bg_white l-grid__padding">
+          <div class="c-intro__left">
+            <h1 class="c-info__title c-info__title--color_blue-shark">
+              Quality designs made custom, on demand, just for you
+            </h1>
+            <p class="c-info__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+            <p class="c-info__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur
+              adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam.
+            </p>
+          </div>
+          <div
+            class="c-intro__right c-intro__right--bg_blue-shark c-intro__right--padding"
+          >
+            <section class="c-info c-info--center">
+              <h1 class="c-info__title c-info__title--color_white">Cheap</h1>
+              <p class="c-info__text c-info__text--color_white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </section>
+            <section class="c-info c-info--center">
+              <h1 class="c-info__title c-info__title--color_white">Quick</h1>
+              <p class="c-info__text c-info__text--color_white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </section>
+            <section class="c-info c-info--center">
+              <h1 class="c-info__title c-info__title--color_white">
+                Affordable
+              </h1>
+              <p class="c-info__text c-info__text--color_white">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </section>
+          </div>
+        </section>
+
+        <section class="c-info-section l-grid__padding">
+          <section class="c-info c-info--center c-info-section__block">
+            <h2 class="c-info__title c-info__title--color_purple">Cheap</h2>
             <p class="c-info__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p>
           </section>
-          <section class="c-info c-info-section__block">
-            <h2 class="c-info__title c-info__title--font_purple">Quick</h2>
+          <section class="c-info c-info--center c-info-section__block">
+            <h2 class="c-info__title c-info__title--color_purple">Quick</h2>
             <p class="c-info__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p>
           </section>
-          <section class="c-info c-info-section__block">
-            <h2 class="c-info__title c-info__title--font_purple">Affordable</h2>
+          <section class="c-info c-info--center c-info-section__block">
+            <h2 class="c-info__title c-info__title--color_purple">
+              Affordable
+            </h2>
             <p class="c-info__text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -58,18 +120,20 @@
           </section>
         </section>
 
-        <section class="c-info-section c-info-section--bg_blue-shark">
-          <section class="c-info c-info-section__block">
-            <h2 class="c-info__title c-info__title--font_white">Cheap</h2>
-            <p class="c-info__text c-info__title--font_white">
+        <section
+          class="c-info-section c-info-section--bg_blue-shark l-grid__padding"
+        >
+          <section class="c-info c-info--center c-info-section__block">
+            <h2 class="c-info__title c-info__title--color_white">Cheap</h2>
+            <p class="c-info__text c-info__title--color_white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
             </p>
           </section>
-          <section class="c-info c-info-section__block">
-            <h2 class="c-info__title c-info__title--font_white">Quick</h2>
-            <p class="c-info__text c-info__title--font_white">
+          <section class="c-info c-info--center c-info-section__block">
+            <h2 class="c-info__title c-info__title--color_white">Quick</h2>
+            <p class="c-info__text c-info__title--color_white">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam.
