@@ -1,11 +1,22 @@
+@use '../../abstracts/variables';
+
 .l-grid {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr minmax(min-content, variables.$boundary-max) 1fr;
+  min-width: min-content;
 }
 
-.l-grid__container {
-  min-width: min-content;
-  max-width: 1440px;
+.l-grid__center {
+  grid-column: 2 / 3;
+}
+
+.l-grid__right {
+  grid-column: 3 / 4;
+}
+
+.l-grid__left {
+  margin: 1rem;
+  grid-column: 1 / 2;
 }
 
 .l-grid__padding {

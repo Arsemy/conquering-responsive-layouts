@@ -9,31 +9,31 @@
   margin-bottom: 0;
 
   font-weight: 900;
-  font-size: var(--medium);
+  font-size: var(--font_medium);
 
   &--color_white {
     color: white;
   }
   &--color_purple {
-    color: #87629a;
+    color: var(--purple);
   }
   &--color_blue-shark {
-    color: #136c72;
+    color: var(--blue-shark);
   }
 
   &--size_big {
-    font-size: var(--big);
+    font-size: var(--font_big);
   }
   &--size_medium {
-    font-size: var(--medium);
+    font-size: var(--font_medium);
   }
   &--size_small {
-    font-size: var(--small);
+    font-size: var(--font_small);
   }
 }
 
 .c-info__text {
-  font-size: var(--small);
+  font-size: var(--font_small);
 
   &--color_white {
     color: white;

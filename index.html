@@ -13,9 +13,38 @@
     <link rel="stylesheet" href="./src/main.scss" />
   </head>
   <body>
+    <header class="l-header c-header">
+      <div class="c-header__inner">
+        <a href=""
+          ><img class="c-header__logo" src="./src/assets/logo.svg" alt="image"
+        /></a>
+        <nav class="c-header__nav c-nav">
+          <ul class="c-nav__list">
+            <li class="c-nav__item"><a class="c-nav__link" href="">HOME</a></li>
+            <li class="c-nav__item">
+              <a class="c-nav__link" href="">ABOUT</a>
+            </li>
+            <li class="c-nav__item">
+              <a class="c-nav__link" href="">CONTACT</a>
+            </li>
+          </ul>
+          <ul class="c-nav__list">
+            <li class="c-nav__item">
+              <a class="c-nav__link" href="">SIGN IN</a>
+            </li>
+            <li class="c-nav__item">
+              <button class="c-button c-button--padding_small">
+                <a class="c-button__link" href="">SIGN UP</a>
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
     <main class="l-grid">
-      <div class="l-grid__container">
-        <section class="c-intro l-grid__padding">
+      <div class="l-grid__center">
+        <section class="l-grid__padding c-intro">
           <div class="c-intro__left">
             <section class="c-info">
               <h1
@@ -39,7 +68,7 @@
           </div>
         </section>
 
-        <section class="c-intro c-intro--bg_white l-grid__padding">
+        <section class="l-grid__padding c-intro c-intro--bg_white">
           <div class="c-intro__left">
             <h1 class="c-info__title c-info__title--color_blue-shark">
               Quality designs made custom, on demand, just for you
@@ -91,7 +120,7 @@
           </div>
         </section>
 
-        <section class="c-info-section l-grid__padding">
+        <section class="l-grid__padding c-info-section">
           <section class="c-info c-info--center c-info-section__block">
             <h2 class="c-info__title c-info__title--color_purple">Cheap</h2>
             <p class="c-info__text">
@@ -121,7 +150,7 @@
         </section>
 
         <section
-          class="c-info-section c-info-section--bg_blue-shark l-grid__padding"
+          class="l-grid__padding c-info-section c-info-section--bg_blue-shark"
         >
           <section class="c-info c-info--center c-info-section__block">
             <h2 class="c-info__title c-info__title--color_white">Cheap</h2>

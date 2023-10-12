@@ -2,7 +2,9 @@
   display: flex;
   justify-content: space-between;
 
-  background-color: #23424a;
+  min-width: min-content;
+
+  background-color: var(--blue-indigo);
 
   &--bg_white {
     background-color: white;
@@ -22,7 +24,7 @@
     overflow-wrap: anywhere;
 
     &--font_blue-shark {
-      color: #136c72;
+      color: var(--blue-shark);
     }
   }
 
@@ -42,7 +44,7 @@
     width: 34%;
 
     &--bg_blue-shark {
-      background-color: #136c72;
+      background-color: var(--blue-shark);
     }
 
     &--padding {

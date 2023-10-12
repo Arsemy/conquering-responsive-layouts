@@ -1,13 +1,17 @@
 .c-button {
-  background-color: #38cfd9;
+  background-color: var(--cyan);
 
   border: none;
   border-radius: 999px;
-  padding: 0.8em;
-}
+  padding: 0.8em 1em;
 
-.c-button__link {
-  font-weight: 700;
-  color: #23424a;
-  text-decoration: none;
+  &--padding_small {
+    padding: 0.5em 0.7em;
+  }
+
+  &__link {
+    font-weight: 700;
+    color: var(--blue-indigo);
+    text-decoration: none;
+  }
 }
