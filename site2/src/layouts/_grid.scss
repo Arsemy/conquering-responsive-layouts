@@ -1,21 +1,21 @@
-.grid {
+.l-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-}
 
-.grid__fill {
-  grid-column: 1 / -1;
-}
+  &__fill {
+    grid-column: 1 / -1;
+  }
 
-.grid__padding {
-  padding: min(30px, 3vw);
-}
+  &__padding {
+    padding: min(30px, 3vw);
+  }
 
-.grid__padding-rl {
-  padding-right: min(30px, 3vw);
-  padding-left: min(30px, 3vw);
-}
+  &__padding-rl {
+    padding-right: min(30px, 3vw);
+    padding-left: min(30px, 3vw);
+  }
 
-.grid__hero {
-  height: 660px;
+  &__hero {
+    height: 660px;
+  }
 }
