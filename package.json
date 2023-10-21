@@ -1,6 +1,5 @@
 {
   "name": "conquering-responsive-layouts",
-  "version": "0.0.0",
   "description": "",
   "scripts": {
     "dev1": "vite",
