@@ -3,6 +3,11 @@
 .c-header {
   background-color: var(--blue-indigo);
 
+  &--sticky {
+    position: sticky;
+    top: 0;
+  }
+
   &__inner {
     display: flex;
     align-items: center;
