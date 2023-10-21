@@ -1,0 +1,7 @@
+@use '../abstracts/colors';
+
+:root {
+  --primary: #{colors.$primary};
+  --secondary: #{colors.$secondary};
+  --tertiary: #{colors.$tertiary};
+}
