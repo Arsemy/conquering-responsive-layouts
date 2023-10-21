@@ -15,11 +15,17 @@ jobs:
         with:
           node-version: 18.x
 
-      - name: Install dependencies
-        run: npm ci
+      - name: Site1
+        run: |
+          cd site1
+          npm ci
+          npm run build
 
-      - name: Compile Everything
-        run: npm run build
+      - name: Site2
+        run: |
+          cd site2
+          npm ci
+          npm run build
 
   formatting:
     runs-on: ubuntu-latest
