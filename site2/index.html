@@ -13,45 +13,71 @@
     <title>~</title>
   </head>
   <body>
-    <main class="l-grid">
-      <section class="l-grid__fill l-grid__padding-rl l-grid__hero c-hero">
-        <p class="c-hero__label">LOREM IMPSUN SIT</p>
-        <h1 class="c-hero__display">
-          Responsive layouts don't have to be a struggle
-        </h1>
-      </section>
-      <section class="l-grid__fill">
-        <h1>Quality Designs</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
-          vivamus arcu felis bibendum ut tristique. Arcu dui vivamus arcu felis.
-          Sociis natoque penatibus et magnis dis.
-        </p>
-        <p>
-          Felis donec et odio pellentesque diam volutpat. Aliquam purus sit amet
-          luctus venenatis. Turpis in eu mi bibendum neque egestas congue
-          quisque egestas. Pellentesque sit amet porttitor eget dolor morbi non.
-        </p>
-      </section>
-      <section class="lgrid__fill">
-        <h1>Made custom for you</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam.
-        </p>
-        <img src="./src/assets/image1.jpg" alt="" />
-      </section>
-      <section class="l-grid__fill">
-        <h1>Created with care</h1>
-        <p>
-          Felis donec et odio pellentesque diam volutpat. Aliquam purus sit amet
-          luctus venenatis. Turpis in eu mi bibendum neque egestas congue
-          quisque egestas. Pellentesque sit amet porttitor eget dolor morbi non.
-        </p>
-        <img src="./src/assets/image2.jpg" alt="" />
-      </section>
+    <main class="l-container">
+      <div class="l-container__inner l-grid">
+        <section class="l-grid__fill l-grid__padding-rl l-grid__hero c-hero">
+          <p class="c-hero__label">LOREM IMPSUN SIT</p>
+          <h1
+            class="c-hero__display c-display c-display--color_secondary c-display--no-margin"
+          >
+            Responsive layouts don't have to be a struggle
+          </h1>
+        </section>
+        <section class="l-grid__fill l-grid__padding section1">
+          <h2 class="c-title c-title--color_secondary c-title--no-margin">
+            Quality Designs
+          </h2>
+          <div class="section1__content">
+            <p class="c-body c-body--color_tertiary">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
+              vivamus arcu felis bibendum ut tristique. Arcu dui vivamus arcu
+              felis. Sociis natoque penatibus et magnis dis.
+            </p>
+            <p class="c-body c-body--color_tertiary">
+              Felis donec et odio pellentesque diam volutpat. Aliquam purus sit
+              amet luctus venenatis. Turpis in eu mi bibendum neque egestas
+              congue quisque egestas. Pellentesque sit amet porttitor eget dolor
+              morbi non.
+            </p>
+          </div>
+        </section>
+        <section
+          class="l-grid__fill l-grid__padding section2 section2--bg_tertiary"
+        >
+          <div class="section2__content">
+            <h2 class="c-title c-title--color_primary c-title--no-margin">
+              Made custom for you
+            </h2>
+            <p class="c-body c-body--color_white">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam.
+            </p>
+          </div>
+          <div class="section2__image-wrapper">
+            <img class="section2__image" src="./src/assets/image1.jpg" alt="" />
+          </div>
+        </section>
+        <section
+          class="l-grid__fill l-grid__padding section2 section2--bg_secondary"
+        >
+          <div class="section2__image-wrapper">
+            <img class="section2__image" src="./src/assets/image2.jpg" alt="" />
+          </div>
+          <div class="section2__content">
+            <h2 class="c-title c-title--color_primary c-title--no-margin">
+              Created with care
+            </h2>
+            <p class="c-body c-body--color_white">
+              Felis donec et odio pellentesque diam volutpat. Aliquam purus sit
+              amet luctus venenatis. Turpis in eu mi bibendum neque egestas
+              congue quisque egestas. Pellentesque sit amet porttitor eget dolor
+              morbi non.
+            </p>
+          </div>
+        </section>
+      </div>
     </main>
   </body>
 </html>

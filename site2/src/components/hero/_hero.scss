@@ -10,12 +10,6 @@
   background-color: var(--primary);
 
   &__display {
-    margin-top: 0;
-
-    color: c.$secondary;
-    font-size: t.$fs-display--500;
-    font-family: 'Playfair Display';
-    line-height: t.$ln-display--500;
     text-align: center;
   }
 

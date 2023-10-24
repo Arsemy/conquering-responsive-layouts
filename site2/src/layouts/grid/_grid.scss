@@ -1,0 +1,26 @@
+.l-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  &__fill {
+    grid-column: 1 / -1;
+  }
+
+  &__padding {
+    padding: min(5rem, 8vw);
+  }
+
+  &__padding-tb {
+    padding-top: min(5rem, 8vw);
+    padding-bottom: min(5rem, 8vw);
+  }
+
+  &__padding-rl {
+    padding-right: min(5rem, 8vw);
+    padding-left: min(5rem, 8vw);
+  }
+
+  &__hero {
+    min-height: 660px;
+  }
+}

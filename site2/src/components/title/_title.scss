@@ -1,0 +1,19 @@
+@use '../../abstracts/colors' as c;
+@use '../../abstracts/typography' as t;
+
+.c-title {
+  font-family: 'Playfair Display';
+  font-size: t.$fs-title--800;
+
+  &--color_primary {
+    color: c.$primary;
+  }
+
+  &--color_secondary {
+    color: c.$secondary;
+  }
+
+  &--no-margin {
+    margin: 0;
+  }
+}

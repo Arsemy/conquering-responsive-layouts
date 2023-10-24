@@ -1,0 +1,8 @@
+.l-container {
+  display: flex;
+  justify-content: center;
+
+  &__inner {
+    max-width: 1128px;
+  }
+}

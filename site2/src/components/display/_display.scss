@@ -1,0 +1,16 @@
+@use '../../abstracts/colors' as c;
+@use '../../abstracts/typography' as t;
+
+.c-display {
+  font-family: 'Playfair Display';
+  font-size: t.$fs-display--500;
+  line-height: t.$ln-display--500;
+
+  &--color_secondary {
+    color: c.$secondary;
+  }
+
+  &--no-margin {
+    margin: 0;
+  }
+}

@@ -1,0 +1,15 @@
+@use '../../abstracts/colors' as c;
+@use '../../abstracts/typography' as t;
+
+.c-body {
+  color: black;
+  font-size: t.$fs-body--500;
+
+  &--color_white {
+    color: white;
+  }
+
+  &--color_tertiary {
+    color: c.$tertiary;
+  }
+}
