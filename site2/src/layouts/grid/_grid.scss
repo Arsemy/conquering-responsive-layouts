@@ -1,6 +1,7 @@
 .l-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  column-gap: 1.5rem;
 
   &__fill {
     grid-column: 1 / -1;
