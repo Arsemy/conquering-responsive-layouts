@@ -1,3 +1,5 @@
+@use '../../abstracts/queries';
+
 .c-nav {
   display: flex;
   justify-content: space-between;
@@ -18,5 +20,20 @@
     color: white;
     font-weight: 700;
     text-decoration: none;
+  }
+
+  @include queries.tablet-portrait-down {
+    display: none;
+    flex-direction: column;
+    row-gap: 1rem;
+
+    &--visible {
+      display: flex;
+    }
+
+    &__list {
+      flex-direction: column;
+      row-gap: 1rem;
+    }
   }
 }

@@ -1,0 +1,13 @@
+@use '../../abstracts/queries';
+
+.c-nav-toggle {
+  display: none;
+  border: none;
+
+  background-color: transparent;
+  cursor: pointer;
+
+  @include queries.tablet-portrait-down {
+    display: block;
+  }
+}

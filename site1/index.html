@@ -8,16 +8,35 @@
       rel="stylesheet"
     />
 
-    <title>lab</title>
-
     <link rel="stylesheet" href="./src/main.scss" />
+    <script type="module" src="./src/main.js"></script>
+
+    <title>lab</title>
   </head>
   <body>
     <header class="c-header c-header--sticky">
       <div class="c-header__inner">
-        <a href=""
-          ><img class="c-header__logo" src="./src/assets/logo.svg" alt="image"
-        /></a>
+        <div class="c-header__brand-and-toggle">
+          <a href=""
+            ><img
+              class="c-header__logo"
+              src="./src/assets/logo.svg"
+              alt="image"
+          /></a>
+          <button class="c-nav-toggle">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="24"
+              viewBox="0 0 28 24"
+            >
+              <path
+                fill="currentColor"
+                d="M2.61 0h22.431a2.61 2.61 0 1 1 0 5.22H2.61a2.61 2.61 0 1 1 0-5.22zm0 9.39h22.431a2.61 2.61 0 1 1 0 5.22H2.61a2.61 2.61 0 1 1 0-5.22zm0 9.391h22.431a2.61 2.61 0 1 1 0 5.22H2.61a2.61 2.61 0 1 1 0-5.22z"
+              />
+            </svg>
+          </button>
+        </div>
         <nav class="c-header__nav c-nav">
           <ul class="c-nav__list">
             <li class="c-nav__item"><a class="c-nav__link" href="">HOME</a></li>
