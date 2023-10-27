@@ -1,0 +1,15 @@
+{
+  "name": "conquering-responsive-layouts",
+  "description": "",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.69.0",
+    "vite": "^4.4.11"
+  }
+}
