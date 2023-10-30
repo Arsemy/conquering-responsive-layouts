@@ -6,7 +6,15 @@
   font-family: 'Oswald';
   line-height: t.$lh-display--500;
 
+  &--clr_white {
+    color: c.$white;
+  }
+
   &--clr_primary_500 {
     color: c.$primary--500;
+  }
+
+  &--no-margin {
+    margin: 0;
   }
 }
