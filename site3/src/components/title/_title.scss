@@ -1,0 +1,29 @@
+@use '../../abstracts/colors' as c;
+@use '../../abstracts/typography' as t;
+
+.c-title {
+  font-size: t.$fs-title--500;
+  font-family: 'Oswald' &--clr_secondary_500 {
+    color: c.$secondary--500;
+  }
+
+  &--fs_400 {
+    font-size: t.$fs-title--400;
+  }
+
+  &--fs_600 {
+    font-size: t.$fs-title--600;
+  }
+
+  &--fs_700 {
+    font-size: t.$fs-title--700;
+  }
+
+  &--fs_800 {
+    font-size: t.$fs-title--800;
+  }
+
+  &--fs_900 {
+    font-size: t.$fs-title--900;
+  }
+}

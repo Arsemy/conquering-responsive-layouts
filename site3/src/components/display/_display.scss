@@ -1,0 +1,9 @@
+@use '../../abstracts/colors' as c;
+@use '../../abstracts/typography' as t;
+
+.c-display {
+  font-size: t.$fs-display--500;
+  font-family: 'Oswald' &--clr_secondary_500 {
+    color: c.$secondary--500;
+  }
+}

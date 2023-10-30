@@ -1,0 +1,21 @@
+@use '../../abstracts/colors' as c;
+@use '../../abstracts/typography' as t;
+
+.c-body {
+  font-size: t.$fs-body--500;
+  font-family: 'Montserrat' &--clr_white {
+    color: c.$white;
+  }
+
+  &--clr_primary_500 {
+    color: c.$primary--500;
+  }
+
+  &--fs_400 {
+    font-size: t.$fs-body--400;
+  }
+
+  &--fs_600 {
+    font-size: t.$fs-body--600;
+  }
+}
