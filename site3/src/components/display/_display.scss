@@ -3,7 +3,10 @@
 
 .c-display {
   font-size: t.$fs-display--500;
-  font-family: 'Oswald' &--clr_secondary_500 {
-    color: c.$secondary--500;
+  font-family: 'Oswald';
+  line-height: t.$lh-display--500;
+
+  &--clr_primary_500 {
+    color: c.$primary--500;
   }
 }

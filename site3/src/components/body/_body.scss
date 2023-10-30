@@ -3,7 +3,10 @@
 
 .c-body {
   font-size: t.$fs-body--500;
-  font-family: 'Montserrat' &--clr_white {
+  font-family: 'Montserrat';
+  line-height: t.$lh-body--500;
+
+  &--clr_white {
     color: c.$white;
   }
 

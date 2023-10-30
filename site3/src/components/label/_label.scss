@@ -4,6 +4,7 @@
 .c-label {
   font-size: t.$fs-label--500;
   font-family: 'Oswald';
+  line-height: t.$lh-label--500;
 
   &--clr_white {
     color: c.$white;
