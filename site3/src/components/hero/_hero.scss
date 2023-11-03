@@ -3,14 +3,4 @@
 .c-hero {
   display: flex;
   align-items: flex-end;
-
-  background-color: c.$white;
-
-  &--clr_secondary_400 {
-    background-color: c.$secondary--400;
-  }
-
-  &--clr_secondary_500 {
-    background-color: c.$secondary--500;
-  }
 }

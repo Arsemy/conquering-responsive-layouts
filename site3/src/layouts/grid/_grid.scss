@@ -8,21 +8,14 @@
   grid-template-columns: repeat(var(--columns), 1fr);
   gap: var(--gutters);
 
+  padding-right: 6rem;
+  padding-left: 6rem;
+
   &__fill {
     grid-column: 1 / -1;
   }
 
   &__half {
     grid-column: span calc(var(--columns) / 2);
-  }
-
-  &__padding_rl {
-    padding-right: 6rem;
-    padding-left: 6rem;
-  }
-
-  &__padding_tb {
-    padding-top: 10rem;
-    padding-bottom: 10rem;
   }
 }

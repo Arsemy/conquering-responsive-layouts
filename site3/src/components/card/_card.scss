@@ -1,0 +1,9 @@
+@use '../../abstracts/colors' as c;
+
+.c-card {
+  text-align: center;
+
+  &--clr_secondary_500 {
+    background-color: c.$secondary--500;
+  }
+}

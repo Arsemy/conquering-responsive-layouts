@@ -1,0 +1,21 @@
+@use '../../abstracts/colors' as c;
+
+.c-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  background-color: c.$white;
+
+  &--clr_secondary_500 {
+    background-color: c.$secondary--500;
+  }
+
+  &--clr_gray {
+    background-color: c.$gray;
+  }
+
+  &--padding-tb_800 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
