@@ -1,8 +1,2 @@
-@use 'body/body';
-@use 'button/button';
-@use 'card/card';
-@use 'display/display';
-@use 'label/label';
-@use 'hero/hero';
-@use 'section/section';
-@use 'title/title';
+@forward 'ui';
+@forward 'typography';

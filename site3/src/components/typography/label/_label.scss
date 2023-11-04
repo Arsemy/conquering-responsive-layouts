@@ -1,5 +1,5 @@
-@use '../../abstracts/colors' as c;
-@use '../../abstracts/typography' as t;
+@use '../../../abstracts/colors' as c;
+@use '../../../abstracts/typography' as t;
 
 .c-label {
   font-size: t.$fs-label--500;

@@ -1,5 +1,5 @@
-@use '../../abstracts/colors' as c;
-@use '../../abstracts/typography' as t;
+@use '../../../abstracts/colors' as c;
+@use '../../../abstracts/typography' as t;
 
 .c-body {
   font-size: t.$fs-body--500;

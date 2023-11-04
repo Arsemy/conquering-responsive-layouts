@@ -1,5 +1,5 @@
-@use '../../abstracts/colors' as c;
-@use '../../abstracts/typography' as t;
+@use '../../../abstracts/colors' as c;
+@use '../../../abstracts/typography' as t;
 
 .c-title {
   font-size: t.$fs-title--500;
