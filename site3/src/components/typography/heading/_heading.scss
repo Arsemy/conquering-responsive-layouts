@@ -10,6 +10,10 @@
     color: c.$primary--500;
   }
 
+  &--clr_white {
+    color: c.$white;
+  }
+
   &--fs_400 {
     font-size: t.$fs-heading--400;
   }
